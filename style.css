@@ -45,14 +45,33 @@
 }
 
 #header-container {
-  background-color: #1c1c1c;
-  border-radius: 25px;
-  color: #ff7300;
   font-family: tipielectric;
   font-size: 50px;
   text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
+}
+
+#home{
+  background-color: #1c1c1c;
+  border-radius: 25px;
+  padding:10px     
+}
+
+#about{
+  background-color: #1c1c1c;
+  border-radius: 25px;
+  padding:10px     
+}
+
+#fun{
+  background-color: #1c1c1c;
+  border-radius: 25px;
+  padding:10px     
+}
+
+#contact{
+  background-color: #1c1c1c;
+  border-radius: 25px;
+  padding:10px     
 }
 
 a:-webkit-any-link {
