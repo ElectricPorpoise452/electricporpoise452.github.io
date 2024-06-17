@@ -51,7 +51,8 @@
   font-family: tipielectric;
   font-size: 50px;
   text-align: center;
-  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 a:-webkit-any-link {
