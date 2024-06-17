@@ -45,12 +45,13 @@
 }
 
 #banner{
+height:65px;
 }
 
 #header-container {
   font-family: tipielectric;
   font-size: 25px;
-  text-align: center;
+  margin-left:330px;
 }
 
 #home{
