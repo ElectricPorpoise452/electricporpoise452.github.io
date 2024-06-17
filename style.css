@@ -87,8 +87,9 @@ a:hover{
 /* CSS FOR HOME PAGE */
 
 #greeting{
-    color:#FFFFFF;
+    color:#ffffff;
     font-family: railroaderregular;
+    text-align:center;
 }
 
 /* CSS FOR ABOUT PAGE */
