@@ -44,6 +44,13 @@
 
 }
 
+#banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 #header-container {
   font-family: tipielectric;
   font-size: 50px;
