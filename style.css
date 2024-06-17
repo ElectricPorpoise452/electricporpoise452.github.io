@@ -1,4 +1,4 @@
-
+/* CSS FOR ALL PAGES */
 @font-face {
     font-family: 'fabianregular';
     src: url('https://electricporpoise452.github.io/fonts/fabian-webfont.woff2') format('woff2'),
@@ -82,5 +82,21 @@ a:-webkit-any-link {
 
 a:hover{
     color: #00ff73;
-}   
+}
+
+/* CSS FOR HOME PAGE */
+
+#greeting{
+    color:#FFFFFF;
+    font-family: railroaderregular;
+}
+
+/* CSS FOR ABOUT PAGE */
+
+
+
+/* CSS FOR CONTACT PAGE */
+
+
+
 
