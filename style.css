@@ -55,27 +55,19 @@ height:65px;
 }
 
 #home{
-  background-color: #1c1c1c;
-  border-radius: 25px;
-  padding:10px     
+      
 }
 
 #about{
-  background-color: #1c1c1c;
-  border-radius: 25px;
-  padding:10px     
+  
 }
 
 #fun{
-  background-color: #1c1c1c;
-  border-radius: 25px;
-  padding:10px     
+      
 }
 
 #contact{
-  background-color: #1c1c1c;
-  border-radius: 25px;
-  padding:10px     
+     
 }
 
 a:-webkit-any-link {
