@@ -51,7 +51,19 @@ height:65px;
 #header-container {
   font-family: tipielectric;
   font-size: 25px;
+  color: #ffffff;
   margin-left:330px;
+}
+
+#fun-menu{
+    text-align: center;
+    background-color:#1c1c1c;
+    padding:10px;
+    border-radius:25px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: 20px;
+    
 }
 
 button {
