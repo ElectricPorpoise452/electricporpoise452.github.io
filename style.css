@@ -94,6 +94,13 @@ a:hover{
     height:100%;
 }
 
+#timer{
+   color:#ffffff;
+    font-family: lcdmono2bold;
+    font-size:50px;
+    text-align: center; 
+}
+
 /* CSS FOR HOME PAGE */
 
 #title{
