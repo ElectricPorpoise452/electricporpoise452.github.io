@@ -62,8 +62,11 @@ height:65px;
     border-radius:25px;
     margin-left: 235px;
     margin-top: 10px;
-    width:fit-content;
-    
+    width:fit-content; 
+}
+
+.link_spacer{
+    padding:5px;
 }
 
 button {
