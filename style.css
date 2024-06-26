@@ -88,13 +88,13 @@ a:hover{
     width:0px;
 }
 
-/* CSS FOR HOME PAGE */
-
-#greeting{
+#page-body{
     margin-top:30px;
     overflow:auto;
     height:100%;
 }
+
+/* CSS FOR HOME PAGE */
 
 #title{
     color:#ffffff;
