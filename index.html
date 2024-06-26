@@ -4,9 +4,9 @@
 <div id="header-container">
   <button id="home"><a id=link1 href="https:electricporpoise452.github.io">Home</a></button> &nbsp; 
   <button id="about"><a id="link2" href="https://electricporpoise452.github.io/about.html">About</a></button>  &nbsp; 
-  <button id="fun" onclick="toggle()"><a id=link3 href="#">Extra</a></button> &nbsp; 
+  <button id="extra" onclick="toggle()"><a id=link3 href="#">Extra</a></button> &nbsp; 
   <button id="contact"><a id="link4" href="https://electricporpoise452.github.io/contact.html">Contact</a></button>
-  <div id="fun-menu">
+  <div id="extras">
     <div id="fun-link1">Video</div>
     <div class="link_spacer"></div>
     <div id="fun-link2">Donate</div>
@@ -18,5 +18,15 @@
     <h1>Hey Hey Howdy!!!</h1>
     <p>Welcome to the Electric Porpoise website... Good things are coming STAY TUNED!!!</p>
   </div>
-  <script src="https://electricporpoise452.github.io/script.js"></script>
+  <script>
+    function toggle() {
+var x =
+document.getElementById(fun-menu);
+  if(x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none"
+  }
+}
+  </script>
 </body>
