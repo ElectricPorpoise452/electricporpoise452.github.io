@@ -86,12 +86,19 @@ a:hover{
 
 /* CSS FOR HOME PAGE */
 
-#greeting{
-     color:#ffffff;
-    padding:10px;
+#title{
+    color:#ffffff;
     font-family: fabianregular;
+    font-size:50px;
     text-align: center;
-    margin:50px;
+    letter-spacing:2px; 
+}
+
+#paragraph{
+    color:#ffffff;
+    font-family: fabianregular;
+    font-size:30px;
+    text-align: center;
     letter-spacing:2px;
 }
 
