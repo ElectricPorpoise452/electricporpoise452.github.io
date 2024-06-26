@@ -84,10 +84,16 @@ a:hover{
     color: #00ff73;
 }
 
+::-webkit-scrollbar {
+    width:0px;
+}
+
 /* CSS FOR HOME PAGE */
 
 #greeting{
     margin-top:30px;
+    overflow:auto;
+    height:100%;
 }
 
 #title{
