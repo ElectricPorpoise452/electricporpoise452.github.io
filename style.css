@@ -61,7 +61,7 @@ height:65px;
 
 button {
     font-size:25px;
-    font-family: tipielectric ;
+    font-family: tipielectric;
     text-rendering: auto;
     letter-spacing: normal;
     word-spacing: normal;
@@ -102,6 +102,28 @@ a:hover{
     margin-right:300px;
     margin-top:-100px;
 }
+
+/* CSS FOR INDEX PAGE */
+#welcome{
+    color:#ffffff;
+}
+
+#link1{
+    font-size:25px;
+    font-family: tipielectric;
+    background-color: #1c1c1c;
+    padding-block: 10px;
+    border-radius:25px;   
+}
+
+#link2{
+    font-size:25px;
+    font-family: tipielectric;
+    background-color: #1c1c1c;
+    padding-block: 10px;
+    border-radius:25px;    
+}
+
 
 /* CSS FOR HOME PAGE */
 
