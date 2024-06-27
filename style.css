@@ -106,24 +106,26 @@ a:hover{
 /* CSS FOR INDEX PAGE */
 #welcome{
     color:#ffffff;
+    font-family: fabianregular;
+    font-size:50px;
+    text-align: center;
 }
 
 #link1{
-    font-size:25px;
+    font-size:50px;
     font-family: tipielectric;
     background-color: #1c1c1c;
-    padding-block: 10px;
+    padding:10px;
     border-radius:25px;   
 }
 
 #link2{
-    font-size:25px;
+    font-size:50px;
     font-family: tipielectric;
     background-color: #1c1c1c;
-    padding-block: 10px;
+    padding:10px;
     border-radius:25px;    
 }
-
 
 /* CSS FOR HOME PAGE */
 
