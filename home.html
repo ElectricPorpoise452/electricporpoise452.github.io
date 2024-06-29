@@ -6,7 +6,7 @@
   <button id="about"><a href="https://electricporpoise452.github.io/about.html">About</a></button>  &nbsp; 
   <button id="extras"><a href="https://electricporpoise452.github.io/extras.html">Extras</a></button> &nbsp; 
   <button id="contact"><a href="https://electricporpoise452.github.io/contact.html">Contact</a></button>
-  <span id="timer"></span>
+  <span id="demo"></span>
 </div>
   <div id="page-body">
     <img src="https://electricporpoise452.github.io/BG.png" style="width:100%;">
@@ -46,12 +46,12 @@ var x = setInterval(function() {
 }
 
   // Display the result in the element with id="demo"
-  document.getElementById("timer").innerHTML = days+ ":" + hours + ":" + minutes + ":" + seconds;
+  document.getElementById("demo").innerHTML = days+ ":" + hours + ":" + minutes + ":" + seconds;
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "Happy Birthday Kenneth";
+    document.getElementById("demo").innerHTML = "Happy Birthday Kenneth";
   }
 }, 1000);
   </script>
