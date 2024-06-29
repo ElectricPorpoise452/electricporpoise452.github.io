@@ -6,8 +6,8 @@
   <button id="about"><a href="https://electricporpoise452.github.io/about.html">About</a></button>  &nbsp; 
   <button id="extras"><a href="https://electricporpoise452.github.io/extras.html">Extras</a></button> &nbsp; 
   <button id="contact"><a href="https://electricporpoise452.github.io/contact.html">Contact</a></button>
+  <span id="timer"></span>
 </div>
-  <div id="timer"><p id="demo"></p></div>
   <div id="page-body">
     <img src="https://electricporpoise452.github.io/BG.png" style="width:100%;">
     <div id="title">Hey Hey Howdy!!!</div>
@@ -51,7 +51,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Happy Birthday Kenneth";
+    document.getElementById("timer").innerHTML = "Happy Birthday Kenneth";
   }
 }, 1000);
   </script>
