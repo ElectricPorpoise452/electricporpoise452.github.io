@@ -103,6 +103,13 @@ a:hover{
     margin-top:-100px;
 }
 
+#footer{
+    color:#ffffff;
+    font-family: tipielectric;
+    font-size:25px;
+    text-align: center;
+}
+
 /* CSS FOR INDEX PAGE */
 #welcome{
     color:#ffffff;
