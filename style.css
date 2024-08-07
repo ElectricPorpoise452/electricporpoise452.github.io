@@ -46,10 +46,19 @@
 
 /* CSS FOR INDEX PAGE */
 
+
+#logo{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
 #tittle{
      font-family:fabianregular;
      font-size:50px;
      color: #ffffff;
+     text-shadow:-2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
      text-align: center;
      position: absolute;
      top: 40%;
