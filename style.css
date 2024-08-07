@@ -44,6 +44,17 @@
 
 }
 
+a:-webkit-any-link {
+    color: #ff7300;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+     color: #00ff73;
+}
+
+
 /* CSS FOR INDEX PAGE */
 
 
