@@ -129,14 +129,37 @@ a:hover{
 #title2{
      font-family:pixelsplitterregular;
      font-size:35px;
-     margin-top:25px
+     margin-top:25px;
+     position: absolute;
+     top:15%;
+     left: 4%;
+     transform: translate( 0%, 0%);
 }
 
+#title3{
+     font-family:pixelsplitterregular;
+     font-size:35px;
+     margin-top:25px;
+     position: absolute;
+     top:15%;
+     left: 42%;
+     transform: translate( 0%, 0%);
+}
+
+#title4{
+     font-family:pixelsplitterregular;
+     font-size:35px;
+     margin-top:25px;
+     position: absolute;
+     top:15%;
+     left: 70%;
+     transform: translate( 0%, 0%);
+}
 
 
 #Rumble{
      position: absolute;
-     top:25%;
+     top:30%;
      left: 4%;
      transform: translate( 0%, 0%);
      font-family:tipielectric;
@@ -150,7 +173,7 @@ a:hover{
 
 #X{
      position: absolute;
-     top:35%;
+     top:45%;
      left: 4%;
      font-family:tipielectric;
      font-size:45px;
@@ -163,7 +186,7 @@ a:hover{
 
 #Twitch{
      position: absolute;
-     top:45%;
+     top:60%;
      left: 4%;
      font-family:tipielectric;
      font-size:45px;
@@ -176,7 +199,7 @@ a:hover{
 
 #Odysee{
      position: absolute;
-     top:55%;
+     top:75%;
      left: 4%;
      font-family:tipielectric;
      font-size:45px;
@@ -186,5 +209,60 @@ a:hover{
      text-align: center;
      width:33%
 }
+
+#YouTube{
+     position: absolute;
+     top:30%;
+     left: 42%;
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:24%
+}
+
+#TikTok{
+     position: absolute;
+     top:45%;
+     left: 42%;
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:24%
+}
+
+#Throne{
+     position: absolute;
+     top:30%;
+     left: 70%;
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:25%
+}
+
+#SE-Tip{
+     position: absolute;
+     top:45%;
+     left: 70%;
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:25%
+}
+
+
+
 
 /* CSS FOR MOBILE PAGE */
