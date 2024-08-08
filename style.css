@@ -264,7 +264,10 @@ a:hover{
 #title5{
      font-family:tipielectric;
      font-size:25px;
-     
+     position: absolute;
+     top:95%;
+     left: 50%;
+     transform: translate(-50%, -50%);
 }
 
 /* CSS FOR MOBILE PAGE */
