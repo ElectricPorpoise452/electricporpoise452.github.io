@@ -120,22 +120,71 @@ a:hover{
      background-color:#000000;
      padding: 10px;
      border-radius:25px;
-     width:75%
+     width:75%;
+     height:75%;
 }
+
+
 
 #title2{
-     position: absolute;
-     top:25%;
-     left:20%;
-     transform: translate(-50%, -50%);
+     font-family:pixelsplitterregular;
+     font-size:35px;
+     margin-top:25px
 }
 
 
 
+#Rumble{
+     position: absolute;
+     top:25%;
+     left: 4%;
+     transform: translate( 0%, 0%);
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:33%
+}
 
+#X{
+     position: absolute;
+     top:35%;
+     left: 4%;
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:33%
+}
 
+#Twitch{
+     position: absolute;
+     top:45%;
+     left: 4%;
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:33%
+}
 
-
-
+#Odysee{
+     position: absolute;
+     top:55%;
+     left: 4%;
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:33%
+}
 
 /* CSS FOR MOBILE PAGE */
