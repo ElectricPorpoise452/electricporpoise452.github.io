@@ -266,3 +266,25 @@ a:hover{
 
 
 /* CSS FOR MOBILE PAGE */
+
+#m-image{
+     position: relative;
+     text-align: center;
+}
+
+#m-link-box{
+     font-family:fabianregular;
+     font-size:50px;
+     color:#ffffff;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color:#000000;
+     padding: 10px;
+     border-radius:25px;
+     width:75%;
+     height:75%;
+}
+
+
