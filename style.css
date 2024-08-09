@@ -293,10 +293,155 @@ a:hover{
      height:75%;
 }
 
+#m-title2{
+     font-family:pixelsplitterregular;
+     font-size:35px;
+     position: absolute;
+     top:10%;
+     left: 50%;
+     transform: translate( -50%, -50%);
+     width:100%;
+}
+
+#m-title3{
+     font-family:pixelsplitterregular;
+     font-size:35px;
+     margin-top:25px;
+     position: absolute;
+     top:45%;
+     left: 50%;
+     transform: translate( -50%, -50%);
+}
+
+#m-title4{
+     font-family:pixelsplitterregular;
+     font-size:35px;
+     margin-top:25px;
+     position: absolute;
+     top:66%;
+     left: 50%;
+     transform: translate( -50%, -50%);
+     width:100%;
+}
+
+#m-Rumble{
+     position: absolute;
+     top:18%;
+     left: 50%;
+     transform: translate( -50%, -50%);
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:50%;
+}
+
+#m-X{
+     position: absolute;
+     top:25%;
+     left: 50%;
+     transform: translate( -50%, -50%);
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:50%;
+}
+
+#m-Twitch{
+     position: absolute;
+     top:32%;
+     left: 50%;
+     transform: translate( -50%, -50%);
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:50%;
+}
+
+#m-Odysee{
+     position: absolute;
+     top:39%;
+     left:50%;
+     transform: translate( -50%, -50%);
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:50%;
+}
+
+#m-YouTube{
+     position: absolute;
+     top:53%;
+     left: 50%;
+     transform: translate( -50%, -50%);
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:50%;
+}
+
+#m-TikTok{
+     position: absolute;
+     top:60%;
+     left: 50%;
+     transform: translate( -50%, -50%);
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:50%;
+}
+
+#m-Throne{
+     position: absolute;
+     top:74%;
+     left: 50%;
+     transform: translate( -50%, -50%);
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:50%;
+}
+
+#m-SE-Tip{
+     position: absolute;
+     top:81%;
+     left: 50%;
+     transform: translate( -50%, -50%);
+     font-family:tipielectric;
+     font-size:45px;
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+     width:50%;
+}
 
 #m-title5{
      font-family:tipielectric;
      font-size:35px;
-     
+     position: absolute;
+     top:95%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width:100%
 }
-
