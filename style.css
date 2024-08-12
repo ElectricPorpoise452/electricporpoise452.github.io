@@ -102,6 +102,51 @@ a:hover{
 }
 
 /* CSS FOR DESKTOP PAGE */
+#logo{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+#title{
+     font-family:fabianregular;
+     font-size:50px;
+     color: #ffffff;
+     text-shadow:-2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+     text-align: center;
+     position: absolute;
+     top: 40%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+#buttons{
+     font-family:tipielectric;
+     font-size:45px;
+     color: #ff7300;
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+#button1{
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+}
+
+#button2{
+     background-color:#1c1c1c;
+     padding: 10px;
+     border-radius:25px;
+     text-align: center;
+}
+
+/* CSS FOR DESKTOP PAGE */
 
 #image{
      position: relative;
@@ -131,8 +176,8 @@ a:hover{
      margin-top:25px;
      position: absolute;
      top:15%;
-     left: 4%;
-     transform: translate( 0%, 0%);
+     left:20%;
+     transform: translate( -50%, -50%);
 }
 
 #title3{
@@ -141,8 +186,8 @@ a:hover{
      margin-top:25px;
      position: absolute;
      top:15%;
-     left: 42%;
-     transform: translate( 0%, 0%);
+     left:55%;
+     transform: translate( -50%, -50%);
 }
 
 #title4{
@@ -151,94 +196,101 @@ a:hover{
      margin-top:25px;
      position: absolute;
      top:15%;
-     left: 70%;
-     transform: translate( 0%, 0%);
+     left:85%;
+     transform: translate( -50%, -50%);
+     width:100%
 }
 
 
 #Rumble{
      position: absolute;
      top:30%;
-     left: 4%;
-     transform: translate( 0%, 0%);
+     left:20%;
+     transform: translate( -50%, -50%);
      font-family:tipielectric;
      font-size:45px;
      background-color:#1c1c1c;
      padding: 10px;
      border-radius:25px;
      text-align: center;
-     width:33%;
+     width:25%;
 }
 
 #X{
      position: absolute;
      top:45%;
-     left: 4%;
+     left:20%;
+     transform: translate( -50%, -50%);
      font-family:tipielectric;
      font-size:45px;
      background-color:#1c1c1c;
      padding: 10px;
      border-radius:25px;
      text-align: center;
-     width:33%;
+     width:25%;
 }
 
 #Twitch{
      position: absolute;
      top:60%;
-     left: 4%;
+     left:20%;
+     transform: translate( -50%, -50%);
      font-family:tipielectric;
      font-size:45px;
      background-color:#1c1c1c;
      padding: 10px;
      border-radius:25px;
      text-align: center;
-     width:33%;
+     width:25%;
 }
 
 #Odysee{
      position: absolute;
      top:75%;
-     left: 4%;
+     left:20%;
+     transform: translate( -50%, -50%);
      font-family:tipielectric;
      font-size:45px;
      background-color:#1c1c1c;
      padding: 10px;
      border-radius:25px;
      text-align: center;
-     width:33%;
+     width:25%;
 }
 
 #YouTube{
      position: absolute;
      top:30%;
-     left: 42%;
+     left:55%;
+     transform: translate( -50%, -50%);
      font-family:tipielectric;
      font-size:45px;
      background-color:#1c1c1c;
      padding: 10px;
      border-radius:25px;
      text-align: center;
-     width:24%;
+     width:25%;
 }
 
 #TikTok{
      position: absolute;
      top:45%;
-     left: 42%;
+     left:55%;
+     transform: translate( -50%, -50%);
      font-family:tipielectric;
      font-size:45px;
      background-color:#1c1c1c;
      padding: 10px;
      border-radius:25px;
      text-align: center;
-     width:24%;
+     width:25%;
 }
 
 #Throne{
      position: absolute;
      top:30%;
-     left: 70%;
+     left:85%;
+     transform: translate( -50%, -50%);
      font-family:tipielectric;
      font-size:45px;
      background-color:#1c1c1c;
@@ -251,7 +303,8 @@ a:hover{
 #SE-Tip{
      position: absolute;
      top:45%;
-     left: 70%;
+     left:85%;
+     transform: translate( -50%, -50%);
      font-family:tipielectric;
      font-size:45px;
      background-color:#1c1c1c;
