@@ -56,6 +56,7 @@ a:hover{
 
 /* CSS FOR INDEX PAGE */
 
+
 * {
   box-sizing: border-box;
 }
@@ -108,6 +109,12 @@ html{
      width:px;
 }
 
+.title{
+    font-family: pixelsplitterregular;
+     color: #ffffff;
+     text-align:center;
+}
+
 .menu ul{
      list-style-type: none;
      margin: 0;
@@ -116,7 +123,8 @@ html{
 
 .menu li{
      padding: 10px;
-     margin-bottom: 7px;
+     margin-top: 5px;
+     margin-bottom: 5px;
      background-color: #1c1c1c;
      border-radius: 25px;
 }
