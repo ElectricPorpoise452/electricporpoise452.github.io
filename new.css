@@ -60,7 +60,12 @@ a:hover{
   box-sizing: border-box;
 }
 
-
+#logo{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
 
 [class*="col-"] {
   float: left;
