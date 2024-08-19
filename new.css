@@ -61,16 +61,22 @@ a:hover{
 }
 
 #logo{
-     position: absolute;
+     position: relative;
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
 }
 
+.row::after {
+     content: "";
+     clear: both;
+     display: table;
+}
+
+
 [class*="col-"] {
-  float: left;
-  padding: 15px;
-  border: 1px solid red;
+     float:left;
+     padding: 15px;
 }
 
 .col-1 {width: 8.33%;}
@@ -85,3 +91,32 @@ a:hover{
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+html{ 
+     font-family: tipielectric;
+     color: #ffffff;
+     text-align:center;
+}
+
+.row{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: #000000;
+     border-radius:25px;
+     width:px;
+}
+
+.menu ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+}
+
+.menu li{
+     padding: 10px;
+     margin-bottom: 7px;
+     background-color: #1c1c1c;
+     border-radius: 25px;
+}
