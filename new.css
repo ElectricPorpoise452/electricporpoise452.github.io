@@ -1,3 +1,61 @@
+/* CSS FOR ALL PAGES */
+@font-face {
+    font-family: 'fabianregular';
+    src: url('https://electricporpoise452.github.io/fonts/fabian-webfont.woff2') format('woff2'),
+         url('https://electricporpoise452.github.io/fonts/fabian-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lcdmono2bold';
+    src: url('https://electricporpoise452.github.io/fonts/lcdm2b_-webfont.woff2') format('woff2'),
+         url('https://electricporpoise452.github.io/fonts/lcdm2b_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pixelsplitterregular';
+    src: url('https://electricporpoise452.github.io/fonts/pixelsplitter-bold-webfont.woff2') format('woff2'),
+         url('https://electricporpoise452.github.io/fonts/pixelsplitter-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'railroaderregular';
+    src: url('https://electricporpoise452.github.io/fonts/railroader-webfont.woff2') format('woff2'),
+         url('https://electricporpoise452.github.io/fonts/railroader-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tipielectric';
+    src: url('https://electricporpoise452.github.io/fonts/tipi-electric_0-webfont.woff2') format('woff2'),
+         url('https://electricporpoise452.github.io/fonts/tipi-electric_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a:-webkit-any-link {
+    color: #ff7300;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+     color: #00ff73;
+}
+
+/* CSS FOR INDEX PAGE */
+
 * {
   box-sizing: border-box;
 }
