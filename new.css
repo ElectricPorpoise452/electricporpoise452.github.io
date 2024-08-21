@@ -108,7 +108,6 @@ body {
 
 html{ 
      font-family: tipielectric;
-     font-size:25px;
      color: #ffffff;
      text-align:center;
 }
@@ -121,9 +120,6 @@ html{
      background-color: rgba(0,0,0,80%);
      border-radius:25px;
      padding:10px;
-     width:75%;
-     
-
 }
 
 .title{
