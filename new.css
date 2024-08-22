@@ -1,53 +1,54 @@
 /* CSS FOR ALL PAGES */
+
 @font-face {
-    font-family: 'fabianregular';
-    src: url('https://electricporpoise452.github.io/fonts/fabian-webfont.woff2') format('woff2'),
+     font-family:'fabianregular';
+     src:url('https://electricporpoise452.github.io/fonts/fabian-webfont.woff2') format('woff2'),
          url('https://electricporpoise452.github.io/fonts/fabian-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight:normal;
+    font-style:normal;
 
 }
 
 @font-face {
-    font-family: 'lcdmono2bold';
-    src: url('https://electricporpoise452.github.io/fonts/lcdm2b_-webfont.woff2') format('woff2'),
+     font-family:'lcdmono2bold';
+     src:url('https://electricporpoise452.github.io/fonts/lcdm2b_-webfont.woff2') format('woff2'),
          url('https://electricporpoise452.github.io/fonts/lcdm2b_-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+     font-weight:normal;
+     font-style:normal;
 
 }
 
 @font-face {
-    font-family: 'pixelsplitterregular';
-    src: url('https://electricporpoise452.github.io/fonts/pixelsplitter-bold-webfont.woff2') format('woff2'),
+     font-family:'pixelsplitterregular';
+     src:url('https://electricporpoise452.github.io/fonts/pixelsplitter-bold-webfont.woff2') format('woff2'),
          url('https://electricporpoise452.github.io/fonts/pixelsplitter-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+     font-weight:normal;
+     font-style:normal;
 
 }
 
 @font-face {
-    font-family: 'railroaderregular';
-    src: url('https://electricporpoise452.github.io/fonts/railroader-webfont.woff2') format('woff2'),
+     font-family:'railroaderregular';
+     src:url('https://electricporpoise452.github.io/fonts/railroader-webfont.woff2') format('woff2'),
          url('https://electricporpoise452.github.io/fonts/railroader-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+     font-weight:normal;
+     font-style:normal;
 
 }
 
 @font-face {
-    font-family: 'tipielectric';
-    src: url('https://electricporpoise452.github.io/fonts/tipi-electric_0-webfont.woff2') format('woff2'),
+     font-family:'tipielectric';
+     src:url('https://electricporpoise452.github.io/fonts/tipi-electric_0-webfont.woff2') format('woff2'),
          url('https://electricporpoise452.github.io/fonts/tipi-electric_0-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+     font-weight:normal;
+     font-style:normal;
 
 }
 
 a:-webkit-any-link {
-    color: #ff7300;
-    cursor: pointer;
-    text-decoration: none;
+     color: #ff7300;
+     cursor:pointer;
+     text-decoration:none;
 }
 
 a:hover{
@@ -57,89 +58,54 @@ a:hover{
 /* CSS FOR INDEX PAGE */
 
 * {
-  box-sizing: border-box;
+     box-sizing:border-box;
 }
 
 body {
-  background-image: url('vidbackground.png');
-  background-repeat: no-repeat;
-  background-position:center;
-}
-
-.row::after {
-     content: "";
-     clear: both;
-     display: table;
-}
-
-
-[class*="col-"] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 600px) {
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-}
-@media only screen and (min-width: 768px) {
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+     background-image:url('vidbackground.png');
+     background-repeat:no-repeat;
+     background-position:center;
+     background-size:3840px 2140px;
 }
 
 html{ 
-     font-family: tipielectric;
+     font-family:tipielectric;
      color: #ffffff;
-     text-align:center;
 }
 
-.row{
-     position: absolute;
-     top:50%;
-     left:50%;
-     transform: translate( -50%, -50%);
-     background-color: rgba(0,0,0,80%);
+.column {
+     width:50%;
+     flex:50%;
+     padding: 5px;
+}
+
+table {
+     background-color:rgba(0,0,0,80%);
      border-radius:25px;
      padding:10px;
+     border-spacing:10px;
 }
 
-.title{
-    font-family: pixelsplitterregular;
-     color: #ffffff;
-     text-align:center;
+th{
+     font-family:pixelsplitterregular;
+     font-size:15px;
 }
 
-.menu ul{
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
+td{
+     background-color:#1c1c1c;
+     border-radius:25px;
+     font-size:15px;
+     padding:10px;
+     text-align:center
 }
 
-.menu li{
-     padding: 10px;
-     margin-top: 10px;
-     margin-bottom: 10px;
-     margin-left:25%;
-     margin-right:25%;
-     background-color: #1c1c1c;
-     border-radius: 25px;
+@media only screen and (max-width: 600px) {
+     .column {
+     width:100%;
+     flex:50%;
+     padding: 5px;
+     }
+
+
+     
 }
