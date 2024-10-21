@@ -73,21 +73,29 @@ html{
      color: #ffffff;
 }
 
-.column {
-     width:50%;
-     flex:50%;
-     padding: 5px;
-}
-
-table {
-     background-color:rgba(0,0,0,80%);
-     border-radius:25px;
-     padding:10px;
-     border-spacing:10px;
+.row{
      position: absolute;
      top:50%;
      left: 50%;
      transform: translate(-50%, -50%);
+}
+
+.column {
+     width: 50%;
+     padding:5px;
+}
+
+iframe{
+     height:337px;
+     width:600px;
+}
+
+table {
+     background-color:rgba(0,0,0,80%);
+     width:600px;
+     border-radius:25px;
+     padding:10px;
+     border-spacing:10px;
 }
 
 th{
@@ -104,11 +112,16 @@ td{
 }
 
 @media only screen and (max-width: 600px) {
-     column {
-     width:100%;
-     flex:50%;
-     padding: 5px;
+
+     table{
+          width:250px;
      }
+
+     Iframe{
+          height:200;
+          width:340;
+     }
+
      
      th{
           font-size:15px;
