@@ -98,17 +98,12 @@ table {
      border-spacing:10px;
 }
 
-th{
-     font-family:pixelsplitterregular;
-     font-size:30px;
-}
-
 td{
      background-color:#1c1c1c;
      border-radius:25px;
      font-size:30px;
      padding:10px;
-     text-align:center
+     text-align:center;
 }
 
 .header{
@@ -162,4 +157,3 @@ td{
      }
      
 }
-
