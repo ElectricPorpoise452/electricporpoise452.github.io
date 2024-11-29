@@ -125,7 +125,7 @@ td{
      padding:10px;
 }
 
-.row2{
+.row{
      position: absolute;
      top:50%;
      left: 17%;
@@ -169,14 +169,14 @@ td{
           padding:5px;
      }
 
-     .row2{
+     .row{
           display: none;
      }
      
 }
 
 @media only screen and (max-width: 1890px){
-     .row2{
+     .row{
           display: none;
      }
 
