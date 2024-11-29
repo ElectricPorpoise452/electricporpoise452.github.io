@@ -125,6 +125,19 @@ td{
      padding:10px;
 }
 
+.row2{
+     position: absolute;
+     top:50%;
+     left: 17%;
+     transform: translate(-50%, -50%);
+     display: show;
+}
+
+#image{
+     height:auto;
+     width:625px;
+}
+
 @media only screen and (max-width: 1000px) {
 
      table{
@@ -155,5 +168,24 @@ td{
           font-size:15px;
           padding:5px;
      }
+
+     .row2{
+          display: none;
+     }
+     
+}
+
+@media only screen and (max-width: 1890px){
+     .row2{
+          display: none;
+     }
+
+
+
+
+
+
+
+
      
 }
