@@ -133,12 +133,25 @@ td{
      display: show;
 }
 
+#demo{
+     width:625px;
+     text-align: center;
+     font-size: 50px;
+     font-family:lcdmono2bold;
+     color: #ff0000;
+     background-color:rgba(0,0,0,80%);
+     border-radius:25px;
+     padding:10px;
+}
+
+
 #image{
      height:auto;
      width:625px;
+     padding: 10px
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px){
 
      table{
           width:375px;
@@ -175,17 +188,47 @@ td{
      
 }
 
+@media only screen and (max-height: 600px){
+
+     table{
+          width:375px;
+     }
+
+     Iframe{
+          height:211;
+          width:375;
+     }
+
+     th{
+          font-size:15px;
+     }
+     
+     td{
+          font-size:15px;
+     }
+
+     .header{
+          width:375px;
+          font-size:25px;
+          padding:5px;
+     }
+     
+     .footer{
+          width:375px;
+          font-size:15px;
+          padding:5px;
+     }
+
+     .row{
+          display: none;
+     }
+     
+}
+
+
 @media only screen and (max-width: 1890px){
      .row{
           display: none;
      }
 
-
-
-
-
-
-
-
-     
 }
