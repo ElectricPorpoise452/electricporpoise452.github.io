@@ -43,43 +43,52 @@
 
 }
 
-body { background-color: rgba(0, 0, 0, 80%); margin: 0px auto; overflow: hidden; }
+.goal{
+    background-color:rgba(0,0,0,80%);
+    width:625px;
+    height:150px;
+    padding:10px;
+    border-radius:25px;
+}
 
 progress[value]{
--webkit-apperance: none;
-appearance: none;
-width: 1000px;
-height: 100px;
-background-color: #000000;
-border-radius: 25px;
-padding:15px;
+    -webkit-apperance: none;
+    appearance: none;
+    width: 615px;
+    height: 60px;
+    background-color: #000000;
+    border-radius: 25px;
+    padding:8px;
+    
 }
 
 progress::-webkit-progress-bar {
-background-color: #ffffff;
-border-radius: 25px;
+    background-color: #ffffff;
+    border-radius: 25px;
 }
 
 progress::-webkit-progress-value {
-background-color: #7300ff;
-border-radius: 23px;
+    background-color: #7300ff;
+    border-radius: 23px;
 }
 
 .title {
-font-family: tipielectric;
-font-size: 100px;
-color: #00ff73;
-text-align: center;
+    font-family: tipielectric;
+    font-size: 50px;
+    color: #00ff73;
+    text-align: center;
 }
 
 .caption2 {
-font-family: tipielectric;
-font-size: 50px;
-color: #ff7300;
+    font-family: tipielectric;
+    font-size: 25px;
+    color: #ff7300;
+    float: right;
 }
 
 .caption {
-font-family: tipielectric;
-font-size: 50px;
-color: #ff7300;
+    font-family: tipielectric;
+    font-size: 25px;
+    color: #ff7300;
+    float:left;
 }
