@@ -168,6 +168,12 @@ td{
      width:635px;
 }
 
+#donation{
+     height:200px;
+     width:635px;
+     padding:10px;
+}
+
 @media only screen and (max-width: 1000px){
 
      table{
