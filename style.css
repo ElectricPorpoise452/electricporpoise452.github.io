@@ -85,9 +85,13 @@ html{
      padding:5px;
 }
 
-iframe{
+#stream{
      height:352px;
      width:625px;
+}
+
+iframe{
+     border:none
 }
 
 table {
@@ -151,13 +155,26 @@ td{
      padding: 10px
 }
 
+.row3{
+     position: absolute;
+     top:50%;
+     right: 17%;
+     transform: translate(50%, -50%);
+     display: show;
+}
+
+#throne{
+     height:175px;
+     width:635px;
+}
+
 @media only screen and (max-width: 1000px){
 
      table{
           width:375px;
      }
 
-     Iframe{
+     #stream{
           height:211;
           width:375;
      }
@@ -184,6 +201,10 @@ td{
 
      .row{
           display: none;
+     }
+
+     .row3{
+          display:none;
      }
      
 }
@@ -194,7 +215,7 @@ td{
           width:375px;
      }
 
-     Iframe{
+     #stream{
           height:211;
           width:375;
      }
@@ -222,12 +243,17 @@ td{
      .row{
           display: none;
      }
+
      
 }
 
 
 @media only screen and (max-width: 1890px){
      .row{
+          display: none;
+     }
+
+     .row3{
           display: none;
      }
 
