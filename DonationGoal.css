@@ -66,14 +66,17 @@ progress[value]{
     
 }
 
-progress::-webkit-progress-bar {
-    background-color: #ffffff;
-    border-radius: 25px;
+#myProgress{
+    background-color:#ffffff;
+    width:100%;
+    border-radius:10px;
 }
 
-progress::-webkit-progress-value {
-    background-color: #7300ff;
-    border-radius: 23px;
+#mybar{
+    background-color:#7300ff;
+    width:0%;
+    height:50px;
+    border-radius:10px;
 }
 
 .title {
