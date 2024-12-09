@@ -1,0 +1,40 @@
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+
+progress[value]{
+-webkit-apperance: none;
+appearance: none;
+width: 1000px;
+height: 100px;
+background-color: #000000;
+border-radius: 25px;
+padding:15px;
+}
+
+progress::-webkit-progress-bar {
+background-color: #ffffff;
+border-radius: 25px;
+}
+
+progress::-webkit-progress-value {
+background-color: #7300ff;
+border-radius: 23px;
+}
+
+.title {
+font-family: Tipi Electric;
+font-size: 100px;
+color: #00ff73;
+text-align: center;
+}
+
+.caption2 {
+font-family: Tipi Electric;
+font-size: 50px;
+color: #ff7300;
+}
+
+.caption {
+font-family: Tipi Electric;
+font-size: 50px;
+color: #ff7300;
+}
