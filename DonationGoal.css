@@ -43,6 +43,10 @@
 
 }
 
+body{
+    overflow: hidden;
+}
+
 .goal{
     background-color:rgba(0,0,0,80%);
     width:625px;
