@@ -49,7 +49,7 @@ body{
 
 .goal{
     background-color:rgba(0,0,0,80%);
-    width:625px;
+    width:591px;
     height:150px;
     padding:10px;
     border-radius:25px;
@@ -58,7 +58,7 @@ body{
 progress[value]{
     -webkit-apperance: none;
     appearance: none;
-    width: 615px;
+    width: 575px;
     height: 60px;
     background-color: #000000;
     border-radius: 25px;
