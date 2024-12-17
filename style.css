@@ -164,7 +164,7 @@ td{
 }
 
 #throne{
-     height:160px;
+     height:175px;
      width:635px;
 }
 
@@ -176,6 +176,25 @@ td{
 
 #twitch-chat-embed{
      padding:10px;
+}
+
+@media only screen and (min-width: 2560px){
+     .row{
+          position: absolute;
+          top:50%;
+          left: 25%;
+          transform: translate(-50%, -50%);
+          display: show;
+     }
+
+     .row3{
+          position: absolute;
+          top:50%;
+          right: 25%;
+          transform: translate(50%, -50%);
+          display: show;
+     }
+     
 }
 
 @media only screen and (max-width: 1000px){
@@ -258,7 +277,7 @@ td{
 @media only screen and (max-width: 1890px){
      .row{
           display: none;
-     }
+     
 
      .row3{
           display: none;
