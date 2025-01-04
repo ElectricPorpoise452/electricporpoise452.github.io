@@ -63,7 +63,7 @@ a:hover{
 
 body {
      margin:0px;
-     backdrop-filter:blur(5px);
+     backdrop-filter:blur(3px);
      background-image:url('vidbackground.png');
      background-repeat:no-repeat;
      background-position:center;
