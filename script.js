@@ -57,7 +57,7 @@ function move() {
   }
 }
 
-myFunction() {
+function myFunction() {
   var x = document.getElementById("buttons");
   if (x.style.display === "block"){
     x.style.display = "none";
