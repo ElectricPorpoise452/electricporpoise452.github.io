@@ -29,12 +29,12 @@ var x = setInterval(function() {
 }
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days+ ":" + hours + ":" + minutes + ":" + seconds;
+  document.getElementById("timer").innerHTML = days+ ":" + hours + ":" + minutes + ":" + seconds;
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Happy Birthday Kenneth!!!";
+    document.getElementById("timer").innerHTML = "Happy Birthday Kenneth!!!";
   }
 }, 1000);
 
