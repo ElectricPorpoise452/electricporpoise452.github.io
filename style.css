@@ -292,7 +292,7 @@ button{
      }
 
      #copyright{
-          font-size:10px;
+          font-size:8px;
      }
      
 }
@@ -347,7 +347,7 @@ button{
      
      #welcome{
           font-size:20px;
-          width:350px;
+          width:300px;
      }
 
      #update{
@@ -356,11 +356,11 @@ button{
 
      #title{
           width:125px;
-          margin-left:112;
+          margin-left:87px;
      }
 
      .post{
-          width:350px;
+          width:300px;
      }
      
 }
