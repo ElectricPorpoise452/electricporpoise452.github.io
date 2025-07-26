@@ -57,7 +57,7 @@ function move() {
   }
 }
 
-function myFunction() {
+function menubox() {
   var x = document.getElementById("buttons");
   if (x.style.display === "block"){
     x.style.display = "none";
