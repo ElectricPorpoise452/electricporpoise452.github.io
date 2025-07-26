@@ -1,4 +1,4 @@
-/* CSS FOR ALL PAGES */
+n/* CSS FOR ALL PAGES */
 
 @font-face {
      font-family:'fabianregular';
@@ -237,7 +237,11 @@ button{
           width:225px
      }
 
-     #buttons{
+      #buttons{
+           display: none;
+     }
+     
+     #menu-box {
           background-color:#000000;
           display: none;
           position:absolute;
