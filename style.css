@@ -1,4 +1,4 @@
-n/* CSS FOR ALL PAGES */
+/* CSS FOR ALL PAGES */
 
 @font-face {
      font-family:'fabianregular';
@@ -75,6 +75,11 @@ body {
 html{ 
      font-family:tipielectric;
      color: #ffffff;
+}
+
+h1{
+     font-family:fabianregular;
+     color: #ffffff;  
 }
 
 .column{
@@ -283,6 +288,13 @@ button{
 }
 
 /* CSS FOR HOME PAGE */
+
+.column{
+     position:absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+}
 
 
 
