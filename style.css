@@ -353,31 +353,43 @@ td{
      }
 }
 
+#x-button{
+     width:112px;
+}
+
 #stream{
      width:550px;
      height:309px;
-     paddibg:10px;
+     padding:10px
 }
 
 @media only screen and (max-width: 550px ){
 
      th{
           font-weight:normal;
-          padding:0px;
+          padding:-px;
           font-family:fabian;
           font-size:25px;
      }
      
      td{
           padding:0px;
+          
      }
 
      #link-table{
-          width:350px
+          width:350px;
+          button{
+               font-size:12;
+          }
+     }
+
+     #x-button{
+          width:90px;
      }
 
      #stream{
           width:350px;
-          height:197px;
+          height:196px;
      }
 }
