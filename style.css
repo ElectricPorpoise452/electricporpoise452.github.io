@@ -356,6 +356,7 @@ td{
 #stream{
      width:550px;
      height:309px;
+     paddibg:10px;
 }
 
 @media only screen and (max-width: 550px ){
