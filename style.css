@@ -141,6 +141,7 @@ button{
      padding:10px;
      border-radius:25px;
      border:none;
+     width:112px;
      text-align:center;
 }
 
@@ -180,7 +181,7 @@ button{
      
 }
 
-@media only screen and (max-width: 1481px ){
+@media only screen and (max-width: 1440px ){
      button{
      font-family:tipielectric;
      font-size:25px;
@@ -196,48 +197,6 @@ button{
      position:absolute;
      top:6%;
      left:75%;
-     transform: translate(-50%,-50%);
-     }
-     
-}
-
-@media only screen and (max-width: 1185px ){
-     button{
-     font-family:tipielectric;
-     font-size:25px;
-     color:#ff7300;
-     background-color:#3f3f3f;
-     padding:10px;
-     border-radius:25px;
-     border:none;
-     text-align:center;
-     }
-
-     #buttons{
-     position:absolute;
-     top:6%;
-     left:70%;
-     transform: translate(-50%,-50%);
-     }
-     
-}
-
-@media only screen and (max-width: 1000px ){
-     button{
-     font-family:tipielectric;
-     font-size:25px;
-     color:#ff7300;
-     background-color:#3f3f3f;
-     padding:10px;
-     border-radius:25px;
-     border:none;
-     text-align:center;
-     }
-
-     #buttons{
-     position:absolute;
-     top:6%;
-     left:65%;
      transform: translate(-50%,-50%);
      }
      
@@ -263,7 +222,7 @@ button{
 
      button{
      font-family:tipielectric;
-     font-size:25px;
+     font-size:20px;
      color:#ff7300;
      background-color:#3f3f3f;
      padding:10px;
@@ -271,6 +230,7 @@ button{
      border:none;
      text-align:center;
      margin:10px;
+     width:90
      }
 
      body {
@@ -286,7 +246,7 @@ button{
           display:inline-block;
           position:absolute;
           top:6%;
-          left:90%;
+          left:85%;
           transform: translate(-50%,-50%);
           
      }
@@ -370,3 +330,39 @@ button{
 /* CSS FOR ABOUT PAGE */
 
 /* CSS FOR LINKS PAGE */
+
+#link-table{
+     background-color:rgba(0,0,0,70%);
+     border-radius:25px;
+     padding:10px;
+     width:550px
+}
+
+th{
+     font-weight:normal;
+     padding:20px;
+     font-family:fabian;
+     font-size:50px;
+}
+td{
+     padding:10px;
+}
+
+@media only screen and (max-width: 550px ){
+
+     th{
+     font-weight:normal;
+     padding:0px;
+     font-family:fabian;
+     font-size:25px;
+     }
+     
+     td{
+     padding:0px;
+     }
+
+     #link-table{
+          width:350px
+     }
+}
+
