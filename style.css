@@ -270,14 +270,14 @@ button{
 }
 
 #welcome{
-     font-size:50px;
+     font-size:30px;
      background-color:rgba(0,0,0,70%);
      border-radius:25px;
      width:1100px
 }
 
 #update{
-     font-size:30px;
+     font-size:25px;
 }
 
 #title{
