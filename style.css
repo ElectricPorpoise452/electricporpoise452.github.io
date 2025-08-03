@@ -131,17 +131,19 @@ h2{
      top:6%;
      left:85%;
      transform: translate(-50%,-50%);
+     
+     button{
+          font-family:tipielectric
+     }
 }
 
 button{
-     font-family:tipielectric;
      font-size:25px;
      color:#ff7300;
      background-color:#3f3f3f;
      padding:10px;
      border-radius:25px;
      border:none;
-     width:112px;
      text-align:center;
 }
 
@@ -162,7 +164,6 @@ button{
 
 @media only screen and (max-width: 1920px ){
      button{
-     font-family:tipielectric;
      font-size:25px;
      color:#ff7300;
      background-color:#3f3f3f;
@@ -183,7 +184,6 @@ button{
 
 @media only screen and (max-width: 1440px ){
      button{
-     font-family:tipielectric;
      font-size:25px;
      color:#ff7300;
      background-color:#3f3f3f;
@@ -221,7 +221,6 @@ button{
      }
 
      button{
-     font-family:tipielectric;
      font-size:20px;
      color:#ff7300;
      background-color:#3f3f3f;
@@ -340,14 +339,18 @@ button{
 
 th{
      font-weight:normal;
-     padding:20px;
+     padding:10px;
      font-family:fabian;
      font-size:50px;
      text-align:center
 }
 td{
-     padding:10px;
-     text-align:center
+     padding:5px;
+     text-align:center;
+
+     button{
+          font-family: pixelsplitter
+     }
 }
 
 @media only screen and (max-width: 550px ){
