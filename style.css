@@ -343,9 +343,11 @@ th{
      padding:20px;
      font-family:fabian;
      font-size:50px;
+     text-align:center
 }
 td{
      padding:10px;
+     text-align:center
 }
 
 @media only screen and (max-width: 550px ){
@@ -365,4 +367,3 @@ td{
           width:350px
      }
 }
-
