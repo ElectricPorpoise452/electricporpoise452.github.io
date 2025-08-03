@@ -353,20 +353,30 @@ td{
      }
 }
 
+#stream{
+     width:550px;
+     height:309px;
+}
+
 @media only screen and (max-width: 550px ){
 
      th{
-     font-weight:normal;
-     padding:0px;
-     font-family:fabian;
-     font-size:25px;
+          font-weight:normal;
+          padding:0px;
+          font-family:fabian;
+          font-size:25px;
      }
      
      td{
-     padding:0px;
+          padding:0px;
      }
 
      #link-table{
           width:350px
+     }
+
+     #stream{
+          width:350px;
+          height:197px;
      }
 }
