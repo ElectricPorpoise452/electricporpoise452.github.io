@@ -149,6 +149,9 @@ button{
 
 #hamburger{
      display:none;
+     button{
+          font-family:tipielectric;
+     }
 }
 
 @media only screen and (max-width: 2560px ){
@@ -304,7 +307,7 @@ button{
           top:50%;
           left:50%;
           transform: translate(-50%,-50%);
-          height:auto
+          height:600px
      }
      
      #welcome{
