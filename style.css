@@ -336,6 +336,14 @@ button{
 
 /* CSS FOR LINKS PAGE */
 
+.column{
+     text-align:center;
+     position:absolute;
+     top:60%;
+     left:50%;
+     transform: translate(-50%,-50%);
+}
+
 #link-table{
      background-color:rgba(0,0,0,70%);
      border-radius:25px;
@@ -370,6 +378,14 @@ td{
 }
 
 @media only screen and (max-width: 550px ){
+
+     .column{
+          text-align:center;
+          position:absolute;
+          top:50%;
+          left:50%;
+          transform: translate(-50%,-50%);
+     }
 
      th{
           font-weight:normal;
