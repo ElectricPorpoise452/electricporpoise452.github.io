@@ -389,6 +389,10 @@ button{
 }
 
 #link-table{
+     position:absolute;
+     top:25%;
+     left:50%;
+     transform: translate(-50%,-50%);
      background-color:rgba(0,0,0,70%);
      border-radius:25px;
      padding:10px;
@@ -416,6 +420,10 @@ td{
 }
 
 #stream{
+     position:absolute;
+     top:65%;
+     left:50%;
+     transform: translate(-50%,-50%);
      width:550px;
      height:309px;
      padding:10px
@@ -444,6 +452,10 @@ td{
      }
 
      #link-table{
+          position:absolute;
+          top:35%;
+          left:50%;
+          transform: translate(-50%,-50%);
           width:350px;
           button{
                font-size:12;
@@ -455,7 +467,12 @@ td{
      }
 
      #stream{
+          position:absolute;
+          top:65%;
+          left:50%;
+          transform: translate(-50%,-50%);
           width:350px;
           height:196px;
      }
 }
+
