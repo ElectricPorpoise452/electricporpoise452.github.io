@@ -57,6 +57,7 @@ function move() {
   }
 }
 
+// Hide or Show Menu Box 
 function menubox() {
   var x = document.getElementById("menu-box");
   if (x.style.display === "block"){
@@ -64,4 +65,13 @@ function menubox() {
   } else{
     x.style.display = "block"
   }
+}
+
+//Marquee Script
+getText("ticker.txt");
+
+async function getText(file) {
+  let x = await fetch(file);
+  let y = await x.text();
+  document.getElementById("ticker").innerHTML = y;
 }
