@@ -161,11 +161,8 @@ button{
      }
 }
 
-marquee{
-    animation-delay:10s;
-}
-
 #ticker{
+     animation-delay:10s;
      position:absolute;
      top:6%;
      left:1160px;
