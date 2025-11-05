@@ -162,7 +162,7 @@ button{
 }
 
 #ticker{
-     animation-delay:10s;
+     animation-delay:10000ms;
      position:absolute;
      top:6%;
      left:45.3%;
