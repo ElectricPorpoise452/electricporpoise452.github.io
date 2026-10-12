@@ -424,13 +424,11 @@ button{
 
 th{
      font-weight:normal;
-     padding:10px;
      font-family:fabianregular;
      font-size:50px;
      text-align:center
 }
 td{
-     padding:5px;
      text-align:center;
 
      button{
